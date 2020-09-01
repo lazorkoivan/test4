@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tinyslider.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="flexcenter">
+        <div class="content centered">
+            <div id="logo"><img src="./img/logo_Oxit.png" alt="logo" width="70px" height="70px"></div>
+            <input type="checkbox" id="top-shower" class="top-shower">
+            <input type="checkbox" id="top-shower" class="top-shower">
+            <label for="top-shower" class="top">
+                <hr>
+                <hr style="border-bottom-width: 0px;">
+                <hr>
+            </label>
+            </label>
+            <menu class="top-menu">
+                <div class="blockmenu">
+                    <a href="#startSection" class="nav-item textmenu">Головна</a>
+                </div>
+                <div class="blockmenu">
+                    <a href="#cursProgram" class="nav-item textmenu">Програма курсу</a>
+                </div>
+                <div class="blockmenu">
+                    <a href="#reviews" class="nav-item textmenu">Відгуки про курс</a>
+                </div>
+                <div class="blockmenu">
+                    <a href="#videoMenu" class="nav-item textmenu">Відео</a>
+                </div>
+                <div class="blockmenu">
+                    <a href="#mentors" class="nav-item textmenu">Ментори</a>
+                </div>
+                <div style="margin: 0;" class="blockmenu ">
+                    <a href="#startSection" class="nav-item bttn" id="menubttn">Подати заявку</a>
+                </div>
+            </menu>
+
+        </div>
+    </header>
+    <section class="register flexcenter" id="startSection">
+        <div class="content flexcenter">
+            <div class="blockleft flexcenter">
+                <div class="info">
+                    <h1>Курси програмування у Луцьку</h2>
+                        <div style="display: flex; justify-content: center;">
+                            <div style="width: 95%;">Сфера IT розвивається максимально швидко. Зараз дуже популярно здобувати освіту, що повязана з IT. Існує лише одна проблема - брак дійсно кваліфікованих спеціалістів в Україні. Під час навчання в університеті ми отримуємо мало
+                                практики і "живих", реальних кейсів. IT школа OxIT створила таку методику навчання, при якій за короткий час ви отримаєте необхідні знання. щоб стати IT спеціалістом. Чекаємо вас на нших курсах з програмування в Луцьку.
+                                Старт наступного курсу 3 серпня.</div>
+                        </div>
+                </div>
+            </div>
+            <div class="blockright" id="register">
+                <h2>Зареєструватися на курси</h2>
+                <form action="/">
+                    <div class="inputBlock">
+                        <label for="inputName" class="regLabel required">Ім'я</label>
+                        <input class="regInput inputForm" type="text" name="name" placeholder="Ім'я" id="inputName">
+                    </div>
+                    <div class="inputBlock">
+                        <label for="inputSurname" class="regLabel required">Призвіще</label>
+                        <input class="regInput inputForm" type="text" name="surname" placeholder="Призвіще" id="inputSurname">
+                    </div>
+                    <div class="inputBlock">
+                        <label for="inputQaOrDev" class="regLabel required">Мене більше цікавить</label>
+                        <input class="regInput inputForm" type="text" name="qaordev" placeholder="developer or QA" id="inputQaOrDev">
+                    </div>
+                    <div class="inputBlock">
+                        <label for="inputTel" class="regLabel required">Номер телефону</label>
+                        <input class="regInput inputForm" type="tel" name="tel" placeholder="Номер телефону: +38 ХХХ ХХ ХХ XХХ" id="inputTel">
+                    </div>
+                    <div class="inputBlock">
+                        <label for="inputEmail" class="regLabel required">Email</label>
+                        <input class="regInput inputForm" type="email" name="Email" placeholder="Email" id="inputEmail">
+                    </div>
+                    <div class="inputBlock centered" id="checkbox1">
+                        <input class="checkbox" type="checkbox" name="iAgree" id="iAgree">
+                        <label id="iAgreeLabel" for="iAgree" class="required">Я погоджуюся із <a href="#" title="умови конфіденційності">&nbsp;Політикою Конфіденційності</a> </label>
+                    </div>
+                    <div class="inputBlock flexcenter" id="bttnsubmit1">
+                        <button type="submit" class="bttn">Зареєструвати зараз</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="webdev flexcenter" id="cursProgram">
+        <div class="content flexcenter flexcolumn">
+            <h1 style="margin: 36px 0 16px 0;">Курс «Розробка сайтів»</h1>
+            <div class="slider" id="block-webdev">
+                <div class="slide webdevBlock">
+                    <div class="img"><img width="75px" height="75px" src="./img/icons/course-icon-1.png" alt="wp"></div>
+                    <h2>Розробка сайтів на WordPress</h2>
+                    <span>
+                        Курс складається з коротких навчальних відео, на яких ти пізнаєш основи WordPress, навчишся
+                        створювати
+                        сайти різної складності: від блогів до інтернет магазинів. Всі знання закріпиш за допомогою тестових
+                        завдань.</span>
+                </div>
+                <div class="slide webdevBlock">
+                    <div class="img"><img width="75px" height="75px" src="./img/icons/course-icon-2.png" alt="dp"></div>
+                    <h2>Розробка сайтів на Drupal 8</h2>
+
+                    <span>
+                        Для створення чудових сайтів на Drupal 8, цеглинка за цеглинкою, ти пізнаєш секрети основних та
+                        додаткових
+                        Drupal-модулів (Views, Rules, Panels, Devel, Paragraph та багатьох інших).</span>
+                </div>
+                <div class="slide webdevBlock">
+                    <div class="img"><img width="75px" height="75px" src="./img/icons/course-icon-3.png" alt="qa"></div>
+                    <h2>Ознайомлення з тестуванням</h2>
+                    <span>
+                        Ти дізнаєшся про забезпечення якості в контексті різних моделей розробки ПЗ. Також QA-спеціаліст
+                        розкаже про
+                        види тестування (функціональне, регресивне, системне, тестування швидкодії тощо).</span>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <section class="stat flexcenter">
+        <div class="content flexcenter">
+            <div id="statss" class="list flexcenter">
+                <div class="stats block-row">
+                    <div class="img"><img width="75px" height="55px" src="./img/icons/statistic-icon-1.png" alt="Картинка"></div>
+                    <h2 class="animateNum" data-delay="160" data-step="1" data-max="25">0</h2>
+                    <span>курсів організовано</span>
+                </div>
+                <div class="stats block-row">
+                    <div class="img" id="secondstats"><img width="75px" height="55px" src="./img/icons/statistic-icon-2.png" alt="Картинка"></div>
+                    <h2 class="animateNum" data-delay="15" data-step="3" data-max="836">0</h2>
+                    <span>годин занять проведено</span>
+                </div>
+                <div class="stats block-row topseven">
+                    <div class="img"><img width="75px" height="55px" src="./img/icons/statistic-icon-3.png" alt="Картинка"></div>
+                    <h2 class="animateNum" data-delay="15" data-step="2" data-max="500">0</h2>
+                    <span>студентів навчено</span>
+                </div>
+                <div class="stats block-row">
+                    <div class="img"><img width="75px" height="55px" src="./img/icons/statistic-icon-4.png" alt="Картинка"></div>
+                    <h2 class="animateNum" data-delay="30" data-step="1" data-max="120">0</h2>
+                    <span>випускників працевлаштовано</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feedback flexcenter" id="reviews">
+        <div class="content centered flexcolumn">
+            <h1>Що кажуть студенти наших курсів:</h1>
+            <div class="slider studentfeedback">
+                <div class="slide feedbackslide ">
+
+                    <div class="textfeedback flexcenter">
+                        <div class="feedbackblock">
+                            <div class="quote quoteLeft"><img width="25px" height="29px" src="./img/icons/quote-left.png" alt="quoteleft"></div>
+                            Під час проходження курсів Drupal у школі OxIT я навчився створювати не досить складні сайти та знайшов справу, якою хочу займатись. Після успішного завершення курсів мені надали можливість продовжити навчання вже в якості Intern Site Builder. Зараз я
+                            можу сказати, що Drupal та OxIT повністю змінили моє життя.
+                            <div class="quote quoteRight"><img width="25px" height="29px" src="./img/icons/quote-right.png" alt="quoteright"></div>
+                        </div>
+
+
+                    </div>
+                    <div class="comment flexcenter flexcolumn">
+                        <h3>Коля</h3>
+                        <span>Drupal-девелопер</span>
+                    </div>
+                </div>
+                <div class="slide feedbackslide ">
+
+                    <div class="textfeedback flexcenter">
+                        <div class="feedbackblock">
+                            <div class="quote quoteLeft"><img width="25px" height="29px" src="./img/icons/quote-left.png" alt="quoteleft"></div>
+                            Курси відчинили мені двері в IT. Завдяки ним я здобула не тільки великий стек теоретичних знань, а й навчилась виконувати задачі на практиці. Головне — це знайомство й переймання досвіду від розробників зі стажем, які завжди відгукувались. Здобуті знання
+                            дали уявлення не тільки про Drupal, а й про веб-розробку і багато технологій в цілому. Найприємнішим є те що зараз я проходжу стажування, в його процесі використовую матеріали курсу.
+                            <div class="quote quoteRight"><img width="25px" height="29px" src="./img/icons/quote-right.png" alt="quoteright"></div>
+                        </div>
+
+
+                    </div>
+                    <div class="comment flexcenter flexcolumn">
+                        <h3>Юля</h3>
+                        <span>Drupal-девелопер</span>
+                    </div>
+                </div>
+                <div class="slide feedbackslide ">
+
+                    <div class="textfeedback flexcenter">
+                        <div class="feedbackblock">
+                            <div class="quote quoteLeft"><img width="25px" height="29px" src="./img/icons/quote-left.png" alt="quoteleft"></div>
+                            На курсах PM у досить стислий час нам подали надзвичайно багато інформації, яка чітко окреслює, що таке проектний менеджмент загалом і яка його специфіка саме в ІТ. Цікаво те, що ці курси надзвичайно підштовхують розширювати отримані знання. Це ніби платформа
+                            для подальшого саморозвитку, особистого та професійного росту. Також приємним бонусом є те, що знання з проектного менеджменту дуже універсальні — їх можна застосувати у різних сферах життя.
+                            <div class="quote quoteRight"><img width="25px" height="29px" src="./img/icons/quote-right.png" alt="quoteright"></div>
+                        </div>
+
+
+                    </div>
+                    <div class="comment flexcenter flexcolumn">
+                        <h3>Яна</h3>
+                        <span>Проект-менеджер</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="video flexcenter" id="videoMenu">
+        <div style="max-height: 685px;" class="content centered flexcolumn">
+            <h1>Відео</h1>
+            <span style="margin-bottom: 25px; padding: 8px 61px 5px 60px;text-align: center;font-size: 18px;color: #888;">Lorem Ipsum - це текст- "риба", часто використовуваний у пресі та веб-дизайні. Lorem Ipsum є стандартною "рибою"
+                для текстів на латиниці з початку XVI століття. У той час якийсь безіменний друкар створив велику колекцію розмірів
+                і форм шрифтів, використовуючи Lorem Ipsum для роздруківки зразків. Lorem Ipsum не тільки успішно пережив без
+                помітних змін п'ять століть, але й прижилася в електронному дизайн. Його популяризації в новий час послужили
+                публікація листів Letraset із зразками Lorem Ipsum в 60-х роках і, в більш недавні часи, програми електронної
+                верстки типу Aldus PageMaker, в шаблонах яких використовується Lorem Ipsum.</span>
+            <div class="thumb-wrap">
+                <iframe max-width="1020px" width="100%" min-height="470px" src="https://www.youtube.com/embed/JLHvS0qR5Lw" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+
+            <!-- <div class="frame_blc">
+                <iframe max-width="1020px" width="100%" height="521rem" src="https://www.youtube.com/embed/JLHvS0qR5Lw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div> -->
+        </div>
+    </section>
+    <section class="mentors flexcenter" id="mentors">
+        <div class="content flexcenter flexcolumn">
+            <br style="margin-top: 36px;">
+
+            <h1>Наші ментори</h1>
+            <div class="slider slider-mentors" style="min-height: 400px;">
+                <div class="slide mentor-slide">
+                    <div class="imgMentor"><img src="./img/viktor.png" width="302px" height="320px" alt="viktor"></div>
+                    <div class="blockinfo flexrow flexcenter">
+                        <div class="mentorquote">
+                            <h2>Віктор</h2>
+                            <span>
+                                <p>Майбутнім управлінцям неабияк пощастило — адже з ними ділитиметься досвідом управлінець
+                                    із величезним досвідом!
+                                    Сам засновник і CEO компанії InternetDevels, Віктор Левандовський, висловив бажання бути
+                                    викладачем на курсах
+                                    проект-менеджменту.&nbsp;</p>
+    
+                                <p>Віктору є про що розповісти. Він знає все про створення та керування великими компаніями,
+                                    ефективну комунікацію,
+                                    успішні проекти і багато іншого. При цьому він ніколи не скаже, що знає все —
+                                    саморозвиток для нього не
+                                    закінчується жодної хвилини.</p>
+    
+                                <p>На книжкових Віктора полицях — сотні прочитаних книг про управління і не тільки. А от
+                                    заповітні мрії не стоять на
+                                    полиці, бо Віктор вміє впевнено йти до їхнього здійснення. Тільки недавно він передавав
+                                    усім привіт з Ельбрусу —
+                                    найвищої точки Європи.&nbsp;</p>
+    
+                                <p>Буде нестримна, мов гірська лавина, енергія, помножена на мудрість і досвід. І ви таке
+                                    пропустите? Записуйтесь
+                                    уже зараз!<br>
+                                    &nbsp;</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide mentor-slide">
+                    <div class="imgMentor"><img src="./img/mark.png" width="302px" height="320px" alt="mark"></div>
+                    <div class="blockinfo flexrow flexcenter">
+                        <div class="mentorquote">
+                            <h2>Марк</h2>
+                            <span>
+                                <p>Під час виконання практичних завдань увага та підтримка потрібні кожному. І тут поспішає
+                                    на допомогу наш молодий,
+                                    енергійний та комунікабельний тренер курсів — Марк! Він із радістю підтримає тебе, коли
+                                    ти пізнаватимеш тонкощі
+                                    Друпала на практиці.&nbsp;</p>
+    
+                                <p>Марк завжди буде поруч під час налаштування локального середовища, встановлення модулів,
+                                    створення «в’юшок»,
+                                    роботи з Git і Twig, перенесення результатів роботи на хостинг і так далі.</p>
+    
+                                <p>Прагнення допомагати людям та «айтішний» склад розуму — у Марка «в крові». Він любить
+                                    пізнавати щось нове,
+                                    слідкує за модними тенденціями у світі програмування, відвідує корисні тренінги та охоче
+                                    вбирає в себе найкращі
+                                    традиції компанії InternetDevels.&nbsp;</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide mentor-slide">
+                    <div class="imgMentor"><img src="./img/vova.png" width="302px" height="320px" alt="vova"></div>
+                    <div class="blockinfo flexrow flexcenter">
+                        <div class="mentorquote">
+                            <h2>Володимир</h2>
+                            <span>
+                                <p>Наш викладач Володимир Книшук впевнено проведе тебе у світ Drupal-розробки. Цей досвідчений розробник знає і любить
+                                    CMS Drupal — разом з усіма її найцікавішими та найскладнішими нюансами.</p>
+                                
+                                <p>Без Володимира важко було б уявити не лише наші курси і компанію, але й саму Drupal-спільноту. Адже він сприяє
+                                    розвитку Друпала, активно підтримуючи та створюючи корисні Drupal-модулі.</p>
+                                
+                                <p>Програмування — справжня пристрасть Володимира. Його спеціалізація — Drupal, React, веб-сервіси, REST API, темізація,
+                                    розробка кастомних модулів, інтернет-комерція і багато іншого. Маючи величезний багаж знань, він завжди прагне
+                                    дізнатись ще більше — а потім поділитись цим із тобою!</p>
+                                
+                                <p>&nbsp;</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="map">
+        <div style="overflow:hidden;width: 100% ;position: relative;"><iframe width="100%" height="360" src="https://maps.google.com/maps?hl=en&amp;q=вулиця Боженка, 34Г, Луцьк, Волинська область, 43000+(InternetDevels)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0"
+                marginwidth="0"></iframe>
+            <div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;">
+                <small style="line-height: 1.8;font-size: 0px;background: #fff;"> <a
+                        href="https://googlemapsembed.net/">Embed Google Map</a> </small></div>
+            <style>
+                .nvs {
+                    position: relative;
+                    text-align: right;
+                    height: 325px;
+                    width: 643px;
+                }
+                
+                #googlemap img {
+                    max-width: 100% !important;
+                    background: none !important
+                }
+            </style>
+        </div>
+    </section>
+    <section class="section-views flexcenter">
+        <div class="content centered list ">
+            <div class="stats block-row Row-infoblock" style="margin-left: 17px;">
+                <div class="imgStat"><img width="45" height="45px" src="./img/icons/phone.png" alt="Телефон"></div>
+                <h2 class="blockinfo">Телефон</h2>
+                <span><a href="#" class="textinfo">+38 067 332 17 55</a></span>
+            </div>
+            <div class="stats block-row Row-infoblock" style="margin-left: 157px;">
+                <div class="imgStat"><img width="45" height="45px" src="./img/icons/mail.png" alt="Email"></div>
+                <h2 class="texth">E-mail</h2>
+                <span class="textinfo">office@it.volyn.ua</span>
+            </div>
+            <div class="stats block-row Row-infoblock" style="margin-left: 130px;">
+                <div class="imgStat"><img width="45" height="45px" src="./img/icons/pin_0.png" alt="pin"></div>
+                <h2 class="texth">Адреса</h2>
+                <span class="textinfo" width="45" height="45px">вул. Боженка 34г, Луцьк</span>
+            </div>
+            <div class="stats block-row Row-infoblock" style="margin-left: 113px;">
+                <div class="imgStat"><img width="45" height="45px" src="./img/icons/fb.png" alt="facebook"></div>
+                <h2 class="texth">Facebook</h2>
+                <span><a style="max-width: 140px; display:inline-block" href="hhtps://facebook.com/oxitschool" class="textinfo">facebook.com/ oxitschool</a></span>
+            </div>
+        </div>
+    </section>
+    <footer class="flexcenter flexcolumn">
+        <div class="copy">© Copyright 2018-2020 <a href="#">Internet Devels</a></div>
+        <a href="#">Умови політики конфіденційності</a>
+    </footer>
+    <script src="./js/anims.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script>
+        var slider2 = tns({
+            container: '.studentfeedback',
+            items: 1,
+            mode: 'gallery',
+            animateDelay: 1000,
+            slideBy: "page",
+            loop: true,
+            startIndex: 0,
+            mouseDrag: true,
+            autoplayTimeout: 10000,
+            swipeAngle: false,
+            // autoplay: true,
+            speed: 500
+        });
+        var slider3 = tns({
+            container: '.slider-mentors',
+            items: 1,
+            mode: 'gallery',
+            animateDelay: 1000,
+            slideBy: "page",
+            // autoplay: true,
+            autoplayTimeout: 10000,
+            loop: true,
+            startIndex: 0,
+            mouseDrag: true,
+            swipeAngle: false,
+            speed: 500
+        });
+        var slider1;
+
+        function start1Slide() {
+            slider1 = tns({
+                container: '#block-webdev',
+                items: 3,
+                slideBy: "page",
+                loop: false,
+                startIndex: 0,
+                mouseDrag: true,
+                swipeAngle: false,
+                speed: 400
+            });
+        }
+
+        if (window.matchMedia("(max-width: 850px)").matches & window.matchMedia("(min-width: 600px)").matches) {
+            slider1 = tns({
+                container: '#block-webdev',
+                items: 2,
+                slideBy: "page",
+                loop: false,
+                startIndex: 0,
+                mouseDrag: true,
+                swipeAngle: false,
+                speed: 400
+            });
+        } else if (window.matchMedia("(max-width: 600px)").matches) {
+            console.log(600)
+            slider1 = tns({
+                container: '#block-webdev',
+                items: 1,
+                slideBy: "page",
+                mode: 'gallery',
+                animateDelay: 1000,
+                loop: false,
+                startIndex: 0,
+                mouseDrag: true,
+                swipeAngle: false,
+                speed: 400
+            });
+        } else start1Slide();
+        window.addEventListener("resize", () => {
+            var w = document.documentElement.clientWidth;
+            if (w < 850 & w > 600) {
+
+                slider1.destroy();
+                slider1 = tns({
+                    container: '#block-webdev',
+                    items: 2,
+                    slideBy: "page",
+                    loop: false,
+                    startIndex: 0,
+                    mouseDrag: true,
+                    swipeAngle: false,
+                    speed: 400
+                });
+                // slider1.items = 2;
+
+            } else if (window.matchMedia("(max-width: 600px)").matches) {
+                slider1.destroy();
+                slider1 = tns({
+                    container: '#block-webdev',
+                    items: 1,
+                    slideBy: "page",
+                    mode: 'gallery',
+                    animateDelay: 1000,
+                    loop: false,
+                    startIndex: 0,
+                    mouseDrag: true,
+                    swipeAngle: false,
+                    speed: 400
+                });
+                // slider1.items = 1;
+                // slider1.mode = "gallery";
+            } else {
+                slider1.destroy();
+                start1Slide();
+            }
+        });
+    </script>
+</body>
+
+</html>
